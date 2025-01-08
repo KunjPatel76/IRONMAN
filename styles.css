@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  perspective: 2px;
+}
+
+.container {
+  width: 100%;
+}
+
+
+h1 {
+  font-size: 3.5rem;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 0 1rem;
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #e4cf53;
+  position: relative;
+}
+
+.content {
+  padding: 5rem 4rem;
+  position: relative;
+  background: url("./images/ironman.png");
+  background-position: center;
+  background-size: cover;
+  background-clip: border-box;
+  position: relative;
+  opacity: 0.9;
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgb(248, 113, 29);
+  padding: 15px 69px;
+  margin-top: 2rem;
+  border-radius: 15px 20px;
+  font-size: 1.2rem;
+  position: relative;
+  left: 6.8%;
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+  transition: all 0.6s ease;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000;
+  box-shadow: 0 0 2px 3px #fff;
+}
+
+h2 {
+  letter-spacing: 3px;
+  color: rgb(255, 255, 255);
+  font-size: 5rem;
+  margin-top: 9rem;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  background-color: #ffffff;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  max-width: 1200px;
+}
+
+.about-img img {
+  width: 300px;
+  height: auto;
+}
+
+.about-text {
+  max-width: 600px;
+}
+
+.about-text h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-family: Montserrat;
+}
+
+.about-text h3 {
+  font-size: 1.5rem;
+  color: #de3f36;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.about-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.card-container {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.card {
+  width: 300px;
+  background-color: #1e1e2f;
+  color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-img img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 1.5rem;
+  margin: -9rem 0rem 0rem 0rem;
+}
+
+.card-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-content .role {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.card-content .track {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #cfb41f;
+  margin-bottom: 0.5rem;
+}
+
+.card-content .description {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+}
+
+section.bg.parallax {
+  height: 800px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.bg.img1 {
+  background-image: url("http://adruparelco.com/wp-content/uploads/2018/03/wallpapersden.com_avengers-infinity-war-illustration_2048x11521.jpg");
+}
+
+section.bg.img2 {
+  background-image: url("https://pre00.deviantart.net/7a5c/th/pre/f/2015/325/e/e/iron_man_by_reverendtundra-d9gnjas.png");
+}
+
+section.bg.img3 {
+  background-image: url("https://orig00.deviantart.net/72ce/f/2015/322/0/6/black_widow_by_reverendtundra-d9h4iii.png");
+}
+
+section.bg.img4 {
+  background-image: url("http://www.cartoondistrict.com/wp-content/uploads/2014/09/captain-america-wallpaper-for-desktop1-4.png");
+}
+
+section.bg.img5 {
+  background-image: url("https://i.pinimg.com/originals/d8/3d/2b/d83d2b8993989966d27732fb1547b4f4.jpg");
+}
+
+section.bg.img6 {
+  background-image: url("https://images5.alphacoders.com/528/thumb-1920-528474.jpg");
+}
+
+section.bg.img7 {
+  background-image: url("https://wallpaper.forfun.com/fetch/f7/f79b693d5d9c684b6c80376eb7d4b0af.jpeg");
+}
+
+section.bg.img8 {
+  background-image: url("https://img00.deviantart.net/35cd/i/2015/234/6/2/vision_simplistic_background_by_kaleidoscopecolor-d96p2ji.png");
+}
+
+section.bg.img9 {
+  background-image: url("https://pre00.deviantart.net/8e36/th/pre/f/2016/248/8/6/black_panther_by_reverendtundra-daglrcs.png");
+}
+
+section.bg.img10 {
+  background-image: url("https://wallpapers.com/images/featured/spider-man-homecoming-3ra4dpth4ip0ha5n.jpg");
+}
+
+.ironman {
+  text-align: left;
+  color: #ffffff;
+  padding-left: 5%;
+  text-shadow: 0 0 5px #000;
+  opacity: 0.7;
+  line-height: 800px;
+}
+
+.BW {
+  text-align: right;
+  color: #fff;
+  padding-right: 5%;
+  text-shadow: 0 0 5px #000;
+  opacity: 0.7;
+  line-height: 800px;
+}
+
+.CA {
+  text-align: left;
+  color: #fff;
+  padding-left: 1%;
+  text-shadow: 0 0 5px #000;
+  opacity: 0.7;
+  line-height: 800px;
+}
+
+.thor {
+  text-align: left;
+  color: #fff;
+  padding-left: 15%;
+  text-shadow: 0 0 5px #000;
+  opacity: 0.7;
+  line-height: 700px;
+}
+
+.DS {
+  text-align: right;
+  color: #fff;
+  padding-right: 5%;
+  text-shadow: 0 0 5px #000;
+  opacity: 0.7;
+  line-height: 740px;
+}
+
+.hulk {
+  text-align: right;
+  color: #fff;
+  padding-right: 20%;
+  text-shadow: 0 0 5px #000;
+  opacity: 0.7;
+  line-height: 800px;
+}
+
+.vision {
+  text-align: left;
+  color: #fff;
+  padding-left: 15%;
+  text-shadow: 0 0 5px #000;
+  opacity: 0.7;
+  line-height: 500px;
+}
+
+.BP {
+  text-align: right;
+  color: #fff;
+  padding-right: 5%;
+  text-shadow: 0 0 5px #000;
+  opacity: 0.7;
+  line-height: 800px;
+}
+
+.spidy {
+  text-align: left;
+  color: #fff;
+  padding-left: 15%;
+  text-shadow: 0 0 5px #000;
+  opacity: 0.7;
+  line-height: 800px;
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar img {
+    margin-bottom: 10px;
+  }
+
+  ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .content {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 3rem;
+    margin-top: 5rem;
+  }
+
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-img img {
+    width: 100%;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  section.bg.parallax {
+    height: 500px;
+  }
+
+  .ironman,
+  .BW,
+  .CA,
+  .thor,
+  .DS,
+  .hulk,
+  .vision,
+  .BP,
+  .spidy {
+    line-height: 500px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  .button {
+    left: 0;
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2.9rem;
+  }
+
+  .ironman,
+  .BW,
+  .CA,
+  .thor,
+  .DS,
+  .hulk,
+  .vision,
+  .BP,
+  .spidy {
+    line-height: 100px;
+  }
+
+  section.bg.parallax {
+    height: 350px;
+    background-position: 80% 0%;
+  }
+
+  .DS {
+    text-align: right;
+    padding-right: 15%;
+  }
+
+  .spidy {
+    padding-left: 15%;
+  }
+
+  section.bg.img1 {
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+  }
+
+  section.bg.img3 {
+    background-position: 25% 0%;
+  }
+
+  section.bg.img6 {
+    background-position: 3% 0%;
+  }
+
+  section.bg.img9 {
+    background-position: 30% 0%;
+  }
+
+  section.bg.img10 {
+    background-position: 100% 0%;
+  }
+
+  .about-content {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .button {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
